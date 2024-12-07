@@ -7,5 +7,10 @@
     ],
     "redirects": [],
     "basic": [],
-    "ip_restrictions": []
+    "ip_restrictions": [],
+    "stale_while_revalidate": "86400",
+    "error_page": {
+        "status404": "/404.html",
+        "status401": "/401.html"
+    }
 }
